@@ -2,7 +2,7 @@
 name: sync-freefq/free
 on:
   schedule:
-  - cron:  "*/15 * * * *"
+  - cron:  "0 * * * *"
   workflow_dispatch:
   watch:
     types: started
